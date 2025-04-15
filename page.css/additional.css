@@ -6,7 +6,9 @@
     text-decoration: none;
     font-family: "Montserrat", sans-serif;
 }
-
+body{
+    background-color: #cfcfcf8c;
+}
 .section{
     padding: 150px 170px 0 170px ;
 }
@@ -20,7 +22,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: start;
-    background: #fff;
     padding: 5px 10px;
     border-radius: 12px;
     margin-bottom: 40px;
@@ -47,7 +48,6 @@
 }
 
 .designing-section__text {
-    background: #f9f9f9;
     padding: 15px 20px;
     border-radius: 10px;
     border: 1px solid black;
@@ -80,7 +80,6 @@
         "img img"
         "text-wide text-wide"
         "text1 text2";
-    background: #fff;
     padding: 30px 30px 100px 30px;
     border-radius: 12px;
     gap: 8px;
@@ -114,7 +113,6 @@
 }
 
 .modern-section__text {
-    background: #f9f9f9;
     padding: 20px;
     border-radius: 0 10px 0 0 ;
     font-size: 18px;

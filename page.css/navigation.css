@@ -46,6 +46,7 @@
     font-size: 16px;
     color: #000073;
     font-weight: 600;
+    padding-top: 10px;
 }
 
 .text-uppercase {
@@ -69,7 +70,8 @@
     flex-grow: 1;
     justify-content: end;
     font-weight: 500;
-    margin-right: 50px;
+    margin-right: 100px;
+    align-items: center;
 }
 
 .drop-down-menu ul li {
@@ -158,7 +160,6 @@
 
 .mobile-menu {
     position: fixed;
-    /* display: none; */
     top: 0;
     left: 0;
     z-index: 2;
@@ -270,9 +271,7 @@
         position: relative;
         top: 0;
         left: 20px;
-        /* трохи правіше */
         background-color: transparent;
-        /* без фону */
         max-height: 0;
         overflow: hidden;
         opacity: 0;
@@ -291,7 +290,6 @@
         visibility: visible;
     }
 
-    /* Ховер ефект */
     .drop-down-menu ul li ul li a:hover {
         background: rgba(255, 255, 255, 0.1);
         font-weight: 400;
@@ -308,7 +306,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    padding-top: 30px;
+    padding: 30px 170px;
 }
 
 .footer__logo {
@@ -338,13 +336,16 @@
 }
 
 .footer__nav {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     color: #FFF;
     gap: 50px;
 }
-
+.footer__menu{
+    line-height: 2em;
+}
 .footer__menu-list {
     color: #FFF;
 }

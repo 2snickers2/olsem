@@ -14,7 +14,7 @@
     font-weight: 500;
 }
 .gts-section{
-    padding-top: 170px;
+    padding: 170px;
 
 }
 .gts-section__content {
@@ -91,7 +91,7 @@
     
 }
 .list-works-section{
-    padding-top: 50px;
+    padding: 50px 0 100px 0;
 }
 .list-works__content{
     width: 1100px;
@@ -108,10 +108,9 @@
     display: flex;
     align-items: center;
     margin: 10px 0;
+    
 }
-.list-works__form:hover{
-    background-color: #A5A5A5;
-}
+
 .list-works__form-text{
     width: 80%;
     line-height: 1.5em;
