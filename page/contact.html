@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакти</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../page.css/contact.css">
+</head>
+<body>
+    <div id="menu"></div>
+    <section class="contact-section section" id="contact-section">
+        
+        <div class="container">
+            <h2 class="contact-section__title ">Контакти</h2>
+            <p class="contact-section__text">Заповніть форму і зв’яжіться з нами</p>
+            <div class="contact-section__container">
+                <div class="contact-section__form">
+                    
+                    <form name="contact-form" autocomplete="off" novalidate>
+                        <div class="contact-section__form-field input">
+                            <label class="input__label visually-hidden" for="user-name">Ім'я</label>
+                            <input class="input__control" type="text" name="user-name" id="user-name" placeholder="Ім'я"
+                                required>
+                        </div>
+                        <div class="contact-section__form-field input">
+                            <label class="input__label visually-hidden" for="user-email">Електронна пошта</label>
+                            <input class="input__control" type="email" name="user-email" id="user-email"
+                                placeholder="Електронна пошта" required>
+                        </div>
+                        <div class="contact-section__form-field input">
+                            <label class="input__label visually-hidden" for="user-email">Повідомлення</label>
+                            <textarea class="input__control input__control-textarea" type="email" name="user-email" id="user-email"
+                                placeholder="Напишіть повідомленя"></textarea>
+    
+                        </div>
+                        <button class="contact-section__button button" type="submit">Відправити</button>
+                    </form>
+                </div>
+                <div class="contact-section__info">
+                    <ul class="contact-section__info-list">
+                        <li class="contact-section__info-item">
+                        <img class="contact-section__icon" src="../img/contact-png/icons8-place-marker-50.png">
+                            <span>Україна м. Київ вул. Андрія Верхогляда, буд. 4, прим.122</span>
+                        </li>
+                        <li class="contact-section__info-item">
+                            <img class="contact-section__icon" src="../img/contact-png/icons8-mail-50.png">
+                            <a class="contact-section__info-link" href="mailto:tovolsem@gmail.com">tovolsem@gmail.com</a>
+                        </li>
+                        <li class="contact-section__info-item">
+                        <img class="contact-section__icon" src="../img/contact-png/icons8-phone-50.png">
+                            <a class="contact-section__info-link" href="tel:+380660297188">+38(066) 029 71 88</a>
+                        </li>
+                    </ul>
+                <iframe class="contact-section__map"
+                    src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2542.5455207744244!2d30.544034999999997!3d50.412307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNTDCsDI0JzQ0LjMiTiAzMMKwMzInMzguNSJF!5e0!3m2!1suk!2sua!4v1743683317489!5m2!1suk!2sua"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+    
+                </iframe>
+            </div>
+        </div>
+    </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__container">
+                <nav class="footer__nav">
+                    <div class="footer__logo">
+                        <img class="footrer__logo-img" src="../../img/logo/logo-olsem.png" alt="">
+                        <p class="footer__logo-name">Товариство з обмеженою відповідальністю
+                            <br>
+                            <span class="footer-uppercase">олсем</span>
+                        </p>
+                    </div>
+                    <div class="footer__menu">
+                        <ul>
+                            <li><a class="footer__menu-list" href="../about-olsem/index.html">Про компанію</a></li>
+                            <li><a class="footer__menu-list" href="">Продукція</a></li>
+                            <li><a class="footer__menu-list" href="../services/index.html">Діяльність</a></li>
+                            <li><a class="footer__menu-list" href="">Технічна підтримка</a></li>
+                            <li><a class="footer__menu-list" href="../contact/index.html">Контакти</a></li>
+                        </ul>
+                    </div>
+                    <address class="footer__address">
+                        <div class="footer__address-contacts">
+                            <ul class="footer__address-list">
+                                <li>
+                                    <a class="footer__address-link" href="https://maps.app.goo.gl/3vTok28PjN85QiVF7"
+                                        target="_blank">Україна
+                                        м. Київ
+                                        <br>
+                                        вул. Андрія Верхогляда, буд. 4, прим.122</a>
+                                    <a class="footer__address-link" href="tel:+38(066)029 1 88 ">тел: +38(066) 029 71
+                                        88 </a>
+                                </li>
+                                <li>
+                                    <a class="footer__address-link" href="#">Код ЄДРПОУ: 32830601</a>
+                                </li>
+                                <li>
+                                    <a class="footer__address-link" href="mailto:tovolsem@gmail.com">@mail:
+                                        tovolsem@gmail.com</a>
+    
+                                </li>
+                            </ul>
+                        </div>
+                    </address>
+                </nav>
+    
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/menu-loader.js"></script>
+
+</body>
+</html>
