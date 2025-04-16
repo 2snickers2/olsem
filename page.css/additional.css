@@ -72,7 +72,9 @@ body{
     padding: 10px 20px;
     border-radius: 8px;
 }
-
+.modern-section{
+    padding-top: 0;
+}
 .modern-section__content {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -83,6 +85,7 @@ body{
     padding: 30px 30px 100px 30px;
     border-radius: 12px;
     gap: 8px;
+
 }
 
 .modern-section__picture{
