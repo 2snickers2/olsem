@@ -215,15 +215,15 @@
     text-decoration: none;
 }
 
-.menu-btn-open {
+/* .menu-btn-open {
     display: none;
-}
+} */
 
 .mobile-menu__link {
     color: #FFF;
 }
 
-@media screen and (max-width: 1023px) {
+/* @media screen and (max-width: 1023px) {
     .header {
         width: 100%;
     }
@@ -295,7 +295,7 @@
         background: rgba(255, 255, 255, 0.1);
         font-weight: 400;
     }
-}
+} */
 
 .footer {
     position: relative;
