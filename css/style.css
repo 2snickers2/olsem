@@ -204,6 +204,9 @@
     display: block;
     width: 100%;
 }
+.partners-section__link-sestem{
+    cursor: default;
+}
 .partners-section__row:nth-child(2) {
     justify-content: space-evenly;
     width: 90%;
