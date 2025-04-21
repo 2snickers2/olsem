@@ -6,7 +6,18 @@
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
 }
-
+html, body {
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+    width: 100%;
+  }
+  
+  
 .header {
   position: absolute;
   top: 0;
@@ -157,7 +168,7 @@
   background-color: #1f89cf;
 }
 
-.mobile-menu {
+/* .mobile-menu {
   position: fixed;
   top: 0;
   left: 0;
@@ -219,9 +230,9 @@
 
 .mobile-menu__link {
   color: #fff;
-}
+} */
 
-@media screen and (max-width: 1023px) {
+/* @media screen and (max-width: 1023px) {
   .header {
     width: 100%;
   }
@@ -293,7 +304,7 @@
     background: rgba(255, 255, 255, 0.1);
     font-weight: 400;
   }
-}
+} */
 
 .section {
   width: 100%;
@@ -307,7 +318,6 @@
   background-color: #cfcfcf;
   padding: 100px 0 100px 100px;
   width: 100%;
-  min-height: 100vh;
 }
 
 .hero-section__content {
@@ -346,15 +356,15 @@
 }
 
 .hero-section__image {
-  max-width: 560px;
+  position: absolute;
+  right: 0;
+  width: 560px;
   height: auto;
   object-fit: cover;
   margin-top: 50px;
   border-radius: 70px 0 0 70px;
-  position: absolute;
-  width: 560px;
   height: 480px;
-  right: 0;
+
   background-size: cover;
   background-repeat: no-repeat;
   background-image: linear-gradient(
@@ -375,9 +385,9 @@
 
 .activity-section__content {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   margin: 50px;
+  gap: 10px;
 }
 
 .activity-sectiona__inform {
@@ -648,7 +658,7 @@
 .footer__address-link:hover {
   opacity: 0.7;
 }
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
   .contact-section__container {
     display: flex;
     flex-direction: column;
@@ -727,7 +737,7 @@
     align-items: center;
     padding: 0;
   }
-}
+} */
 /* .footer__address-contacts{
     text-align: center;
 } */
