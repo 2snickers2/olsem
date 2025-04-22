@@ -33,6 +33,7 @@
 }
 
 .header__logo {
+  width: 320px;
   position: relative;
   top: 15px;
   display: flex;
