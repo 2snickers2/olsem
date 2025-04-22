@@ -296,3 +296,8 @@
 .footer__address-link:hover {
   opacity: 0.7;
 }
+.footer__menu-author{
+  color: #d8d8d8;
+  font-size: 14px;
+  margin-top: 50px;
+}
