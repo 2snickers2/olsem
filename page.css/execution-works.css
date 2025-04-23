@@ -123,10 +123,11 @@ section{
         padding: 0;
     }
     .architecture-section{
-        padding-top: 130px;
+        padding-top: 150px;
     }
     .section-title {
         font-size: 24px;
+        text-align: center;
     }
 
     .grid-section__img {

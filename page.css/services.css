@@ -101,7 +101,6 @@ body{
         flex-direction: column-reverse;
         border-radius: 15px;
         border: none;
-        margin-top: 30px;
         border-radius: 0;
     }
 
@@ -132,7 +131,7 @@ body{
 
 @media (max-width: 480px) {
     .services-section__content{
-        padding: 10px 0;
+        padding: 50px 0;
     }
     .section-title {
         font-size: 24px;
