@@ -676,12 +676,13 @@ html, body {
 }
 
 @media screen and (max-width: 767px) {
-  
+
 .contact-section__container{
   margin: 0 10px;
 }
   .section-title{
     font-size: 32px;
+    padding-bottom: 20px;
   }
 
   .activity-section__inform-name {
@@ -753,7 +754,7 @@ html, body {
     height: auto;
   }
   .hero-section {
-    padding: 100px 0 30px 30px;
+    padding: 100px 0 30px 10px;
     height: 100vh;
   }
 
@@ -817,4 +818,11 @@ html, body {
   .swiper-btn-next, .swiper-btn-prev{
     display: none;
   }
+  .hero-section {
+    height: 100vh;
+  }
+  .activity-section__content{
+    padding: 0;
+  }
+ 
 }
