@@ -754,6 +754,7 @@ html, body {
   }
   .hero-section {
     padding: 100px 0 30px 30px;
+    height: 100vh;
   }
 
   .hero-section__inform {
