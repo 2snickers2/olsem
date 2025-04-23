@@ -812,7 +812,7 @@ html, body {
 
 } 
 
-@media screen and (max-width: 321px) {
+@media screen and (max-width: 480px) {
   .swiper-btn-next, .swiper-btn-prev{
     display: none;
   }
