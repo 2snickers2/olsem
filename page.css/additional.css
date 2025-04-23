@@ -122,3 +122,69 @@ body{
     border: 1px solid black;
     line-height: 1.5em;
 }
+@media (max-width: 768px) {
+ 
+
+    .section-title {
+        font-size: 32px;
+    }
+
+    .designing-section__card {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .designing-section__text {
+        border-radius: 0 0 10px 10px;
+        font-size: 16px;
+    }
+
+    .modern-section__content {
+        grid-template-areas:
+            "img"
+            "text-wide"
+            "text1"
+            "text2";
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+
+    .modern-section__text,
+    .modern-section__text-wide {
+        font-size: 16px;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .section{
+        padding: 0;
+    }
+
+       .designing-section {
+        padding-top: 100px ;
+    }
+
+    .section-title {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .section__content-title {
+        font-size: 18px;
+        padding: 15px;
+    }
+
+    .designing-section__text,
+    .modern-section__text,
+    .modern-section__text-wide {
+        font-size: 15px;
+        padding: 0;
+        border: none;
+    }
+
+    .blue-bg {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+}

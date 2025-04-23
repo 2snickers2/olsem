@@ -55,6 +55,7 @@ display: flex;
     margin: 0 -24px;
     border-radius: 16px;
     height: 100%;
+    width: 100%;
 
 }
 .input__control-textarea{
@@ -130,4 +131,65 @@ display: flex;
     color: #000073;
     border: 1px solid #002E4C;
     transition: 0.5s ease;
+}
+@media (max-width: 768px) {
+    .section {
+        padding: 100px 40px 80px 40px;
+    }
+
+    .section-title {
+        font-size: 32px;
+        padding-bottom: 40px;
+        text-align: center;
+    }
+
+    .contact-section__container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .contact-section__form,
+    .contact-section__info {
+        flex: 1 1 100%;
+    }
+
+    .contact-section__title {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .contact-section__button {
+        width: 100%;
+    }
+
+    .contact-section__map {
+        width: 100%;
+        margin: 0;
+        height: 200px;
+        padding-top: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .section {
+        padding: 120px 20px 50px 20px
+    }
+
+    .section-title {
+        font-size: 24px;
+    }
+
+    .input__control {
+        font-size: 15px;
+        padding: 12px 20px;
+    }
+
+    .contact-section__info-item {
+        font-size: 12px;
+    }
+
+    .contact-section__button {
+        height: 50px;
+        font-size: 15px;
+    }
 }

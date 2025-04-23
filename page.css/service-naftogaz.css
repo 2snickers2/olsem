@@ -68,7 +68,7 @@
 }
 
 .equipment-section__content{
-    width: 1100px;
+    width: 77%;
     background-color: #D7D7D7;
     margin: 0 auto;
 }
@@ -83,6 +83,7 @@
     align-items: center;
     line-height: 1.5em;
     margin: 20px;
+    overflow: hidden;
 
 }
 .equipment-section__inform-img{
@@ -94,7 +95,7 @@
     padding: 50px 0 100px 0;
 }
 .list-works__content{
-    width: 1100px;
+    width: 77%;
     margin: 0 auto;
 }
 .list-works__form-img{
@@ -116,4 +117,102 @@
     line-height: 1.5em;
     font-size: 18px;
 
+}
+@media (max-width: 768px) {
+    .gts-section {
+        padding-top: 140px;
+    }
+
+    .gts-section__content {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .gts-section__content-img {
+        height: 250px;
+    }
+
+    .gts-section__content-inform {
+        width: 100%;
+    }
+
+    .equipment-section__content,
+    .list-works__content {
+        width: 100%;
+    }
+
+    .equipment-section__inform {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .equipment-section__inform-img,
+    .list-works__form-img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .list-works__form {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .list-works__form-text {
+        width: 100%;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .section{
+        padding: 0;
+    }
+    .equipment-section__inform{
+        border: none;
+        border-radius: 0;
+    }
+    .equipment-section__inform:nth-child(2) {
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        border-left: none;
+        border-right: none;
+    }
+    .equipment-section__form{
+        padding: 0;
+    }
+    .gts-section__content{
+        padding: 0;
+    }
+    .gts-section__content-inform{
+        border: 0;
+        padding: 0;
+    }
+    .gts-section__content-text{
+        display: block;
+        padding: 0 10px;
+    }
+    .gts-section__content-img{
+        padding: 0 10px;
+    }
+    .section-title {
+        font-size: 24px;
+    }
+
+    .section__content-title {
+        font-size: 18px;
+        margin-top: 30px;
+    }
+
+    .gts-section__content-img {
+        height: 200px;
+    }
+
+    .equipment-section__inform,
+    .list-works__form {
+        gap: 10px;
+        padding: 10px;
+        margin: 10px 0 ;
+    }
 }

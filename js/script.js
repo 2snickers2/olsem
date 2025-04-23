@@ -18,9 +18,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
         breakpoints: {
-    320: { slidesPerView: 1, spaceBetween: 0 },  // Mobile
-    768: { slidesPerView: 2, spaceBetween: 10 }, // Tablets
-    1024: { slidesPerView: 3, spaceBetween: 0 }, // Desktops
+    200: { slidesPerView: 1, spaceBetween: 0 },         
+    320: { slidesPerView: 1, spaceBetween: 0 },  
+    500: { slidesPerView: 2, spaceBetween: 5 },  
+    768: { slidesPerView: 2, spaceBetween: 10 }, 
+    1024: { slidesPerView: 3, spaceBetween: 0 }, 
 }
     });
 
